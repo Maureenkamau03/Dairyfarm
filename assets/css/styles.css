@@ -5,3 +5,18 @@
 body {
 	background-color: rgb(207, 231, 170);
 }
+.navbar {
+	background-color: green;
+	color: white;
+	padding: 30px 40px;
+}
+.navbar .navitems .logo {
+	max-width: 20%;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.logo i {
+	color: white;
+	font-size: 48px;
+}
