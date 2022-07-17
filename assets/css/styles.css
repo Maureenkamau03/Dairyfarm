@@ -53,9 +53,18 @@ body {
 }
 .aside {
 	width: 50%;
+	position: relative;
 }
 .aside img {
 	width: 100%;
 	size: cover;
+	height: 100vh;
 	/* background-color: blue; */
+}
+.aside-text {
+	position: absolute;
+	top: 70px;
+	left: 70px;
+	font-size: 30px;
+	text-align: center;
 }
