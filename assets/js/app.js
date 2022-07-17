@@ -155,3 +155,4 @@ const get_weekly_income = document.getElementById("get_weekly_income");
 const get_total_yearly_income = document.getElementById(
 	"get_total_yearly_income"
 );
+const get_yearly_income = document.getElementById("get_yearly_income");
