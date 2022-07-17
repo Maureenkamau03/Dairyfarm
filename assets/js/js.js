@@ -37,6 +37,26 @@ const months = [
 		name: "July",
 		days: 31,
 	},
+	{
+		name: "August",
+		days: 31,
+	},
+	{
+		name: "September",
+		days: 30,
+	},
+	{
+		name: "October",
+		days: 31,
+	},
+	{
+		name: "November",
+		days: 30,
+	},
+	{
+		name: "December",
+		days: 31,
+	},
 ];
 
 // Functions.

@@ -64,7 +64,7 @@ let months = [
 
 // functions
 // total productions function which is called upon clickicking the form to display production per shed resets the values hides the form afterwards
-const totalProduction = (event) => {
+const handleShedsFormSubmit = (event) => {
 	// To prevent refreshing the page whenever the button is clicked.
 	event.preventDefault();
 
@@ -152,7 +152,7 @@ function totalIncome(price, time) {
 
 // When form is clicked.
 
-sheds.addEventListener("submit", totalProduction);
+sheds.addEventListener("submit", handleShedsFormSubmit);
 
 // report action buttons
 const get_weekly_income = document.getElementById("get_weekly_income");
