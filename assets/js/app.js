@@ -76,4 +76,21 @@ const totalproduction = (event) => {
 	document.getElementById(shed_a).value = "";
 	document.getElementById(shed_a).value = "";
 	document.getElementById(shed_a).value = "";
+
+	// Hiding the form to display reports
+	document.getElementById("shed_form").style.display = "none";
+
+	// show daily report
+	document.getElementById(
+		"shed_a_report"
+	).innerText = `Your production in Shed A is ${shed_a}`;
+	document.getElementById(
+		"shed_b_report"
+	).innerText = `Your production in Shed B is ${shed_b}`;
+	document.getElementById(
+		"shed_c_report"
+	).innerText = `Your production in Shed C is ${shed_c}`;
+	document.getElementById(
+		"shed_D_report"
+	).innerText = `Your production in Shed D is ${shed_d}`;
 };
