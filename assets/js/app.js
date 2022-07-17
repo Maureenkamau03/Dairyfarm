@@ -156,3 +156,9 @@ const get_total_yearly_income = document.getElementById(
 	"get_total_yearly_income"
 );
 const get_yearly_income = document.getElementById("get_yearly_income");
+
+// another event listener
+// when the total yearly button is clicked
+get_total_yearly_income.addEventListener("click", () => {
+	let result = totalIncome(price, 366);
+});
