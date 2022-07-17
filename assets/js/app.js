@@ -68,4 +68,12 @@ const totalproduction = (event) => {
 	shed_b = parseInt(document.getElementById("shed_b").value);
 	shed_c = parseInt(document.getElementById("shed_c").value);
 	shed_d = parseInt(document.getElementById("shed_d").value);
+
+	// getting the totals.
+	total = shed_a + shed_b + shed_c + shed_d;
+	// after getting the inputs we need to reset the values
+	document.getElementById(shed_a).value = "";
+	document.getElementById(shed_a).value = "";
+	document.getElementById(shed_a).value = "";
+	document.getElementById(shed_a).value = "";
 };
