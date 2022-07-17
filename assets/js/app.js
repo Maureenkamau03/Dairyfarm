@@ -94,6 +94,10 @@ const totalproduction = (event) => {
 		"shed_D_report"
 	).innerText = `Your production in Shed D is ${shed_d}`;
 
+	document.getElementById(
+		"total_shed_report"
+	).innerText = `The total number of litres is ${total}`;
+
 	// show the income report actions.
 	document.getElementById("income-reports-actions").style.display = "block";
 };
