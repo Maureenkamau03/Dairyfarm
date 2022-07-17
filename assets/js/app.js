@@ -150,20 +150,8 @@ function totalIncome(price, time) {
 
 sheds.addEventListener("submit", totalProduction);
 
-// show report
-document.getElementById(
-	"shed_a_report"
-).innerText = `Value for Shed A is ${shed_a}`;
-document.getElementById(
-	"shed_b_report"
-).innerText = `Value for Shed B is ${shed_b}`;
-document.getElementById(
-	"shed_c_report"
-).innerText = `Value for Shed C is ${shed_c}`;
-document.getElementById(
-	"shed_d_report"
-).innerText = `Value for Shed D is ${shed_d}`;
-
-document.getElementById(
-	"total_shed_report"
-).innerText = `The total number of litres is ${total}`;
+// report action buttons
+const get_weekly_income = document.getElementById("get_weekly_income");
+const get_total_yearly_income = document.getElementById(
+	"get_total_yearly_income"
+);
