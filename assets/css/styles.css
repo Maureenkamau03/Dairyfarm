@@ -40,6 +40,7 @@ body {
 	width: 100%;
 	margin-top: 30px;
 	color: black;
+	border-bottom: 10px solid white;
 	/* background-color: aqua; */
 }
 .container h1 {
@@ -47,8 +48,8 @@ body {
 }
 .form-container {
 	width: 50%;
-	margin: 10px auto;
-	padding: 10px;
+	margin-right: 20px;
+	padding: 50px;
 	/* background-color: aqua; */
 }
 .aside {
@@ -59,6 +60,7 @@ body {
 	width: 100%;
 	size: cover;
 	height: 100vh;
+	border-radius: 10px;
 	/* background-color: blue; */
 }
 .aside-text {
@@ -67,4 +69,37 @@ body {
 	left: 70px;
 	font-size: 30px;
 	text-align: center;
+}
+
+.form-inputs {
+	width: 100%;
+	margin: 10px 0px;
+	display: block;
+	/* background-color: aqua; */
+}
+
+.form-inputs label {
+	width: 100%;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.form-inputs input[type="number"] {
+	width: 100%;
+	padding: 10px;
+}
+
+.form-inputs button {
+	width: 90%;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	margin: 15px auto;
+}
+.btn {
+	color: white;
+	background-color: green;
+	border: none;
+	font-size: 30px;
+	font-size: bold;
 }
