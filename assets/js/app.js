@@ -115,7 +115,7 @@ const totalProduction = (event) => {
 	document.getElementById(shed_a).value = "";
 
 	// Hiding the form to display reports
-	document.getElementById("sheds_form").style.display = "none";
+	document.getElementById("form").style.display = "none";
 
 	// show daily report
 	document.getElementById(
@@ -138,6 +138,11 @@ const totalProduction = (event) => {
 	// show the income report actions.
 	document.getElementById("income-reports-actions").style.display = "block";
 };
+
+function totalIncome(price, time) {
+	let result = (total * time * price).toLocaleString();
+	return result;
+}
 
 // Event listeners.
 
