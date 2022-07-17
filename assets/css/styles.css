@@ -47,7 +47,7 @@ body {
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
 	body {
-		background-color: blue;
+		background-color: rgb(123, 219, 166);
 	}
 }
 .navbar {
