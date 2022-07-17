@@ -93,4 +93,7 @@ const totalproduction = (event) => {
 	document.getElementById(
 		"shed_D_report"
 	).innerText = `Your production in Shed D is ${shed_d}`;
+
+	// show the income report actions.
+	document.getElementById("income-reports-actions").style.display = "block";
 };
