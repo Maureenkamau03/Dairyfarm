@@ -60,3 +60,12 @@ let months = [
 		days: 31,
 	},
 ];
+
+// functions
+// total productions function which is called upon clickicking the form to display production per shed resets the values hides the form afterwards
+const totalproduction = (event) => {
+	shed_a = parseInt(document.getElementById("shed_a").value);
+	shed_b = parseInt(document.getElementById("shed_b").value);
+	shed_c = parseInt(document.getElementById("shed_c").value);
+	shed_d = parseInt(document.getElementById("shed_d").value);
+};
