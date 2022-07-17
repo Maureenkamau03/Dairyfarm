@@ -11,6 +11,45 @@ body {
 	margin: auto;
 } */
 /* navigation bar */
+
+@media (max-width: 480px) {
+	* {
+		font-size: 20px;
+	}
+	.aside-text {
+		position: absolute;
+		top: 70px;
+		left: 30px;
+		font-size: 5px;
+		text-align: left;
+		color: white;
+	}
+	.btn {
+		color: black;
+		background-color: red;
+		border: none;
+		/* font-size: 20px; */
+		font-size: bold;
+	}
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+	container {
+		max-width: 1280px;
+	}
+}
+/* Media Query for low resolution  Tablets, Ipads */
+/* @media (min-width: 481px) and (max-width: 767px) {
+	body {
+		background-image: url(" ./assets/images/cowsback.jpeg");
+	}
+} */
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+	body {
+		background-color: blue;
+	}
+}
 .navbar {
 	background-color: green;
 	color: white;
