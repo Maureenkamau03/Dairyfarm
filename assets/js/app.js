@@ -158,3 +158,7 @@ document.getElementById(
 document.getElementById(
 	"shed_d_report"
 ).innerText = `Value for Shed D is ${shed_d}`;
+
+document.getElementById(
+	"total_shed_report"
+).innerText = `The total number of litres is ${total}`;
